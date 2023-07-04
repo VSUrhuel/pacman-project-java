@@ -7,14 +7,17 @@
 In most game development platforms, when rendering 2D game objects they used the cartesian plane as shown below:
 
 ![Cartesian Plane](https://ibb.co/qCQssdR)
+
 From the origin, the value increases as you go rightward and downward, otherwise it decreases (leftward/upward).
 
 Rectangles represents most of 2D game objects since most images are rendered in that shape. Rectangles are represented by the location, width, and height attributes as shown on the image below. The location is the reference point where the rectangle is anchored on and the width and the height corresponds to the area covered by that rectangle from the location reference point. That encompasses the area covered by a Rectangle object.
 
 ![Rectangle Dimension Sample](https://ibb.co/jRmjY4B)
+
 Therefore, given a reference point (3,7) as the location, the width (10), and the height (6), the point value of B is (13,7), C is (3,13), and D is (13,13).
 
 ![Contains Demo Diagram](https://ibb.co/Ptj2dsQ)
+
 The image above demonstrates that a Point object is contained in the rectangle if the location of the point is in the area/bounds of the rectangle. Point U and W is contained in the rectangle while Point V is not.
 
 
@@ -58,6 +61,7 @@ Given the UML with relationships above, implement the **Pacman** class, with the
 
 
 	@Override
+
 	public String toString()
 	{
 		return "Pacman (Total Score: " + this.totalScore + ") " + this.dimension;
@@ -87,6 +91,8 @@ Given the UML with relationships above, implement the **Point** class, with the 
 
 
 	@Override
+
+
 	public String toString()
 	{
 		return "(" + this.x + ", " + this.y ")";
