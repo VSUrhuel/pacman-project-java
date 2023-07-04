@@ -1,6 +1,8 @@
 # Pacman
 **Problem by: Sir Jomari Joseph Barera - Instructor at VSU**
+
 **Coded by: John Rhuel Laurente - BS in Computer Science**
+
 **Coverage: Creating Classes and Inheritance**
 
 **Introduction**
