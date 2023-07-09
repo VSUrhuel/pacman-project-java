@@ -10,9 +10,7 @@ The game also involves collision detection between rectangles. A rectangle is co
 
 The Pacman game is implemented using classes that represent different game objects, including Pacman itself, pellets, rectangles, and points.
 
-![Pacman UML Diagram](https://ibb.co/K0xYZyb)
-
-## Class Descriptions
+![Pacman UML Diagram](PacmanProject(1).png)
 
 ### Rectangle
 
@@ -50,6 +48,40 @@ The Pacman game is implemented using classes that represent different game objec
 ## Usage
 
 The classes provided in this repository can be used to build and run a Pacman game in Java. The specific usage depends on the requirements and design of the game. Refer to the class descriptions and constraints for guidance on how to use the implemented classes.
+
+## Contribution
+
+Contributions to this repository are welcome. If you would like to contribute, please follow these steps:
+
+1. Fork the repository by clicking on the "Fork" button on the repository's page.
+
+2. Clone your forked repository to your local machine:
+
+   ```
+   git clone https://github.com/your-username/name-of-repo.git
+   ```
+
+3. Create a new branch for your changes:
+
+   ```
+   git checkout -b feature/new-feature
+   ```
+
+4. Make your desired changes and commit them:
+
+   ```
+   git commit -m "Add new feature"
+   ```
+
+5. Push your changes to your forked repository:
+
+   ```
+   git push origin feature/new-feature
+   ```
+
+6. Open a pull request on the original repository's page and describe your changes.
+
+Once your pull request is reviewed and approved, it will be merged into the main repository. Thank you for your contribution!
 
 ## Credits
 
