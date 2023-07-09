@@ -10,7 +10,7 @@ The game also involves collision detection between rectangles. A rectangle is co
 
 The Pacman game is implemented using classes that represent different game objects, including Pacman itself, pellets, rectangles, and points.
 
-![Pacman UML Diagram](PacmanProject(1).png)
+![Pacman UML Diagram](PacmanProject.png)
 
 ### Rectangle
 
